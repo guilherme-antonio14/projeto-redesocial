@@ -54,7 +54,8 @@ main{
 }
 #redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.636);
-    transform: translate(-3px, -3px);
+    transform: translate(-3px, -3px); /*negative value is left and top, when is positive , will go right and bottom
+    */
     transition-duration: .5s;
     transition: border 1s;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
